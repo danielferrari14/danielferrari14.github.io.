@@ -1,0 +1,111 @@
+
+.main-conteiner{
+    display: flex;
+    width: 1150px;
+    margin: 7px;
+
+ }
+    /* contenedor de la izquierda*/
+
+.contenedor-izquierda{
+    padding: 7px;
+    background-color:  rgb(147, 184, 184);
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    margin-right: 3%;
+    box-shadow: 2px 2px 20px 5px rgb(115, 114, 114) inset;
+
+ }
+ .contenedor-izquierda * h2{
+    letter-spacing: 3px;
+    border-bottom: 1px solid white;
+
+ }
+
+ .imagen{
+    width: 210px;
+    height: 220px;
+ }
+      /* contenedor central */
+
+.contenedor-principal{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+ }
+
+.contenedor-principal p {
+    font-size: 23px;
+ }
+.contenedor-principal h3 {
+    font-size: 25px;
+ }
+
+.contenedor-principal  h2{
+    letter-spacing: 3px;
+    
+ }
+       /* titulo principal */
+
+.nombre {
+    background-color: rgb(174, 200, 200);
+    box-shadow: 2px 2px 20px 5px rgb(115, 114, 114) inset;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 30px;
+}
+.parrafo-1{
+    background-color: rgb(222, 247, 247);
+}
+
+.iconos {
+    width: 25px;
+    height: 25px;
+}
+
+.icono-contacto {
+    width: 80px;
+    height: 80px;
+   display:inline-block;
+}
+.referencias{
+    display:flex;
+ 
+}
+.contenedor-icono {
+    flex-direction: row;
+    margin: 50px 20px 20px 20px; 
+    
+}   /* formulario contactame */
+
+.formulario {
+width: 250px;
+max-width: 80%;
+margin: auto;
+padding: 10px;
+margin-top: 5px;
+
+
+}
+#mail{
+    background-color:  rgb(237, 253, 253);
+    box-shadow: 1px 1px 1px 1px  rgb(147, 184, 184) inset ;
+}
+#msg {
+    background-color:  rgb(237, 253, 253);
+    box-shadow: 1px 1px 1px 1px  rgb(147, 184, 184) inset ;
+}
+
+#nombre{
+    background-color:  rgb(237, 253, 253);
+    box-shadow: 1px 1px 1px 1px  rgb(147, 184, 184) inset ;
+}
+.mensaje1{
+    color: red;
+}
